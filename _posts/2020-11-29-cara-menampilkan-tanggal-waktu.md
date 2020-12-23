@@ -1,5 +1,5 @@
 ---
-date: 2020-11-30 01:51:13 +0700
+date: 2020-11-30T01:51:13.000+07:00
 layout: post
 title: Cara Menampilkan Tanggal dan Waktu
 subtitle: Bagaimana Menampilkan Tanggal dan Waktu
@@ -12,6 +12,8 @@ category: jekyll
 tags: blog
 author: Wildan Fauzy
 paginate: false
+categories:
+- coretan
 
 ---
 ## Bagaimana Menampilkan Tanggal dan Waktu
