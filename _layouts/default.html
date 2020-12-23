@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{page.title}} | {{site.name}}</title>
+    
+    <link rel="dns-prefetch" href="//i0.wp.com">
+    <link rel="dns-prefetch" href="//i1.wp.com">
+    <link rel="dns-prefetch" href="//i2.wp.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="preconnect" href="//fonts.gstatic.com">
+    
+    {% seo %}
+    
+    <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+
+    <!-- Bootstrap Modified -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.min.css">
+
+    <!-- Theme Stylesheet -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.min.css">
+    
+    <!-- jquery anjing banget -->
+    <script src="{{site.baseurl}}/assets/js/jquery.min.js"></script>
+    
+
+    {% include tracking-header.html %}
+
+
+</head>
+
+<body class="{% if page.url == "/" %} homefirstpage {% endif %}">
+
+    <!-- Navbar -->
+    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+        <a class="navbar-brand mr-2 mb-0" href="https://aidanblog.com/"><strong>{{site.name}}</strong></a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarColor02" style="">
+            <ul class="navbar-nav mr-auto d-flex align-items-center">
+               {% include menu-header.html %}
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex align-items-center">
+                {% include search-lunr.html %}
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
+    <!-- Content -->
+    <main role="main" class="site-content">
+        {{ content }}
+    </main>
+
+    <!-- Scripts: popper, bootstrap, Jquery, theme, lunr -->
+
+    <script src="{{site.baseurl}}/assets/js/theme.min.js"></script>
+    
+    <script src="{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
+    
+    <script src="{{site.baseurl}}/assets/js/popper.min.js"></script>
+
+    <!-- Footer -->
+    <footer class="bg-white border-top p-3 text-muted small">
+        <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div>
+                <span class="navbar-brand mr-2 mb-0"><strong>Aidan</strong></span>
+                <span>Copyright © 2020</span>
+            </div>
+             <div>
+By <a class="text-dark" target="_blank" href="https://wildanfauzy.com">WildanFauzy.com</a>      
+            </div>
+        </div>
+    </footer>
+
+    {% include tracking-footer.html %}
+    
+</body>
+
+</html>

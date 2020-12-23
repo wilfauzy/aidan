@@ -1,0 +1,61 @@
+# Site
+name: 'Aidan Blog'
+description: 'aidan panggil saja idan merupakan blog pribadi wildan fauzy kumpulan tulisan coretan.'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+email: 'me@wildanfauzy.com'
+mailchimp-list: 'https://wildanfauzy.us10.list-manage.com/subscribe/post?u=72d29580a7ee388212e8622a5&id=f06aca7400'
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+   Wildan Fauzy:
+      name:           Wildan Fauzy
+      site:           https://idan.my.id
+      avatar:         assets/images/profile.jpeg
+      bio:            "Hi, Saya Wildan Fauzy, panggil saja idan atau aidan"
+      email:          me@wildanfauzy.com
+      twitter:        https://twitter.com/wilfauzy
+      
+social:
+  name: Wildan Fauzy
+  links:
+    - https://twitter.com/wilfauzy
+    - https://www.facebook.com/wilfauzy
+    - https://www.instagram.com/wilfauzy
+    - https://github.com/wilfauzy
+    
+twitter:
+  username: wilfauzy
+  card: summary_large_image
+  
+lang: id-ID
+
+url: https://aidanblog.com
+ 
+# Defaults
+defaults:
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: Wildan Fauzy
+      avatar: /assets/images/profile.jpeg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+
+# Paginate
+paginate: 10
