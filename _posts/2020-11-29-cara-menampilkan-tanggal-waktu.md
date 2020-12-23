@@ -11,8 +11,6 @@ category: jekyll
 tags: blog
 author: Wildan Fauzy
 paginate: false
-categories:
-- coretan
 
 ---
 ## Bagaimana Menampilkan Tanggal dan Waktu
