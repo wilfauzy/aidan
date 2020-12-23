@@ -2,11 +2,7 @@
 date: 2020-11-30T01:51:13.000+07:00
 layout: post
 title: Cara Menampilkan Tanggal dan Waktu
-description: Front matter jekyll biasanya tanggal post lalu judul postingan, setelah
-  itu bisa diatur permalink sesuka kalian bisa dengan postname, atau beserta tanggal
-  posting atau bisa juga dengan kombinasi path seperti post atau blog.
 image: assets/images/pexels-bakr-magrabi-3203659_jwprol.jpg
-optimized_image: https://res.cloudinary.com/nadliw45/image/upload/c_scale,w_380/v1606486226/pexels-bakr-magrabi-3203659_jwprol.jpg
 category: jekyll
 tags: blog
 author: Wildan Fauzy
