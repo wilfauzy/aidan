@@ -11,6 +11,8 @@ subtitle: Sudah hampir dua minggu di bandung
 description: Apalagi pas awal datang setiap mandi selalu merinding kedinginan kadang
   lama di kamar mandi hanya untuk memberanikan diri untuk menyentuh air di bak mandi,
   namun waktu terus berjalan.
+categories:
+- coretan
 
 ---
 Sudah hampir dua minggu di bandung, karena cuaca dingin membuat malas sekali buat mandi, ditambah jarang beraktifitas di luar ruangan, hujan hampir turun setiap harinya, dan badan jarang berkeringat.
