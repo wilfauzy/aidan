@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Wildan Fauzy
-date: 2020-12-05 23:00:00 +0700
+date: 2020-12-05T23:00:00.000+07:00
 title: 'Kembali Ke Bandung '
 subtitle: 'Dan Bandung hanyalah sebuah daerah '
 description: 'Sudah ada niat seminggu yang lalu akan kembali ke kota kembang, namun
@@ -12,6 +12,8 @@ optimized_image: https://res.cloudinary.com/nadliw45/image/upload/v1606728676/pe
 category: coretan
 tags:
 - 'bandung '
+categories:
+- coretan
 
 ---
 Sudah ada niat seminggu yang lalu akan kembali ke kota kembang, namun niat itu tidak kunjung terwujud banyak faktor yang memengaruhi seperti jam tidur yang tidak teratur. 
@@ -30,4 +32,4 @@ Akhirnya hari jumat memaksakan diri tidak tidur, sampai terjaga, mandi pagi, men
 
 menunggu bis hampir satu tidak ada, memilih naik mini bus atau elf, jalannya seperti setan namun masih bisa tertidur, mata sangat perih. 
 
-Sampai di bandung, mengunci kamar dari luar dan tidur seperti bangkai hidup. 
+Sampai di bandung, mengunci kamar dari luar dan tidur seperti bangkai hidup.
