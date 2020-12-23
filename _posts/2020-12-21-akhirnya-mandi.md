@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Akhirnya Mandi
-author: wildanfauzy
+author: Wildan Fauzy
 category: coretan
 image: assets/images/pexels-mike-114820_afmstb.jpg
 optimized_image: https://res.cloudinary.com/nadliw45/image/upload/v1606486224/pexels-mike-114820_afmstb.jpg
