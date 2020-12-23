@@ -1,7 +1,8 @@
 ---
 layout: post
 author: Wildan Fauzy
-categories: []
+categories:
+- blog
 title: 'Kembali Ke Rumah '
 image: assets/images/theme10_xenudc_okordd.jpg
 date: 2020-12-23 10:00:00 +0000
