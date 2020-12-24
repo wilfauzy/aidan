@@ -5,6 +5,8 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 email: 'me@wildanfauzy.com'
 mailchimp-list: 'https://wildanfauzy.us10.list-manage.com/subscribe/post?u=72d29580a7ee388212e8622a5&id=f06aca7400'
+url: https://aidanblog.com
+
 
 include: ["_pages"]
 permalink: /:title/
@@ -38,8 +40,6 @@ twitter:
   card: summary_large_image
   
 lang: id-ID
-
-url: https://aidanblog.com
  
 # Defaults
 defaults:
@@ -56,7 +56,14 @@ defaults:
       path: "_pages"
     values:
       layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
 
 # Paginate
 paginate: 10
 paginate_path: "/page/:num/"
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
