@@ -4,7 +4,7 @@ title: Obrolan yang Membosankan
 author: Wildan Fauzy
 categories:
   - Coretan
-  - coretan
+  - blog
 image: /assets/images/pexels-amine-m_siouri-4646677_yaqohy.jpg
 tags:
   - 'desember '
