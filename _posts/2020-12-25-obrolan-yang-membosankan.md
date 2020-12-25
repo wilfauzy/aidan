@@ -19,7 +19,3 @@ Bukan apa-apa kuping dan kepala terasa pusing jika berkumpul dengan teman yang s
 Jika mengobrol dunia seperti itu otak saya tidak masuk dan hanya mendengarkan samar-samar karena pusing mendengarnya, apalagi ngobrol dunia kerja rasanya buta kepala ini, selalu ingin membelokan obrolan.
 
 Tidak ada salahnya mengobrol masalah yang lebih ringan seperti melihat suasana di masa lampau, bernostagia ria sambil menyeruput kopi dan beberapa batang rokok hehehe, dunia sudah dipenuhi kapitalis.
-
-&nbsp;
-
-&nbsp;
