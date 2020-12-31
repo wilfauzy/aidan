@@ -1,6 +1,6 @@
 ---
 name: Aidan Blog
-description: aidan panggil saja idan merupakan blog pribadi wildan fauzy kumpulan
+description: aidan blog is personal website of wildan fauzy (@wilfauzy)
   tulisan coretan.
 logo: assets/images/logo.png
 favicon: assets/images/favicon.ico
@@ -18,7 +18,7 @@ plugins:
 authors:
   Wildan Fauzy:
     name: Wildan Fauzy
-    site: https://idan.my.id
+    site: https://wildanfauzy.com
     avatar: assets/images/profile.jpeg
     bio: Hi, Saya Wildan Fauzy, panggil saja idan atau aidan
     email: me@wildanfauzy.com
@@ -33,7 +33,7 @@ social:
 twitter:
   username: wilfauzy
   card: summary_large_image
-lang: en-Us
+lang: en-US
 defaults:
 - scope:
     path: _posts
